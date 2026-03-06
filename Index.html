@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PixelForge Studio – Creamos tu Presencia Digital</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;600;800&family=DM+Sans:wght@300;400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#inicio" class="nav-logo"><span class="logo-icon">⬡</span> PixelForge</a>
+      <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#proceso">Proceso</a></li>
+        <li><a href="#portafolio">Portafolio</a></li>
+        <li><a href="#precios">Precios</a></li>
+        <li><a href="#contacto" class="nav-cta">Cotizar</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="inicio">
+    <div class="hero-bg">
+      <div class="grid-overlay"></div>
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">✦ Agencia de Diseño Web Premium</div>
+      <h1 class="hero-title">
+        Transformamos<br/>
+        ideas en<br/>
+        experiencias<br/>
+        <span class="accent">digitales.</span>
+      </h1>
+      <p class="hero-sub">Diseñamos y desarrollamos páginas web modernas, rápidas y a medida para que tu negocio brille en internet.</p>
+      <div class="hero-btns">
+        <a href="#contacto" class="btn btn-primary">Iniciar Proyecto</a>
+        <a href="#portafolio" class="btn btn-ghost">Ver Portafolio →</a>
+      </div>
+      <!-- STATS: animación CSS pura, sin JS -->
+      <div class="hero-stats">
+        <div class="stat-badge">
+          <div class="stat-ring">
+            <svg viewBox="0 0 60 60"><circle class="ring-bg" cx="30" cy="30" r="24"/><circle class="ring-fill r1" cx="30" cy="30" r="24"/></svg>
+            <span class="stat-val">150+</span>
+          </div>
+          <p>Proyectos</p>
+        </div>
+        <div class="stat-badge">
+          <div class="stat-ring">
+            <svg viewBox="0 0 60 60"><circle class="ring-bg" cx="30" cy="30" r="24"/><circle class="ring-fill r2" cx="30" cy="30" r="24"/></svg>
+            <span class="stat-val">98%</span>
+          </div>
+          <p>Satisfacción</p>
+        </div>
+        <div class="stat-badge">
+          <div class="stat-ring">
+            <svg viewBox="0 0 60 60"><circle class="ring-bg" cx="30" cy="30" r="24"/><circle class="ring-fill r3" cx="30" cy="30" r="24"/></svg>
+            <span class="stat-val">5★</span>
+          </div>
+          <p>Años exp.</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="browser-mock">
+        <div class="browser-bar">
+          <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+          <div class="browser-url">pixelforge.studio/tu-proyecto</div>
+        </div>
+        <div class="browser-body">
+          <div class="mock-header"></div>
+          <div class="mock-hero-block"></div>
+          <div class="mock-cards">
+            <div class="mock-card"></div><div class="mock-card"></div><div class="mock-card"></div>
+          </div>
+          <div class="mock-lines">
+            <div class="mock-line w80"></div>
+            <div class="mock-line w60"></div>
+            <div class="mock-line w90"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOGOS -->
+  <section class="logos-bar">
+    <p class="logos-label">Empresas que confían en nosotros</p>
+    <div class="logos-track">
+      <div class="logos-slide">
+        <span>TechNova</span><span>BrandBloom</span><span>CafeUrban</span>
+        <span>InmoElite</span><span>MediCare</span><span>EduPath</span>
+        <span>TechNova</span><span>BrandBloom</span><span>CafeUrban</span>
+        <span>InmoElite</span><span>MediCare</span><span>EduPath</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Lo que hacemos</span>
+        <h2 class="section-title">Servicios que <em>impulsan</em> tu negocio</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card"><div class="service-icon">◈</div><h3>Diseño Web</h3><p>Interfaces únicas y atractivas centradas en la experiencia del usuario que convierten visitas en clientes.</p><a href="#contacto" class="service-link">Saber más →</a></div>
+        <div class="service-card"><div class="service-icon">⟨/⟩</div><h3>Desarrollo Web</h3><p>Código limpio y optimizado en React, Vue o Next.js. Rendimiento superior garantizado.</p><a href="#contacto" class="service-link">Saber más →</a></div>
+        <div class="service-card"><div class="service-icon">⚡</div><h3>Tiendas Online</h3><p>E-commerce completo con carrito, pasarela de pagos y panel de administración.</p><a href="#contacto" class="service-link">Saber más →</a></div>
+        <div class="service-card"><div class="service-icon">◎</div><h3>SEO &amp; Posicionamiento</h3><p>Optimización para que Google te encuentre primero. Más visibilidad y tráfico orgánico.</p><a href="#contacto" class="service-link">Saber más →</a></div>
+        <div class="service-card"><div class="service-icon">⊞</div><h3>Landing Pages</h3><p>Páginas de alta conversión para campañas publicitarias y lanzamientos de productos.</p><a href="#contacto" class="service-link">Saber más →</a></div>
+        <div class="service-card"><div class="service-icon">↻</div><h3>Mantenimiento Web</h3><p>Actualizaciones, backups y soporte técnico continuo para que tu web funcione siempre.</p><a href="#contacto" class="service-link">Saber más →</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="section section-dark" id="proceso">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Cómo trabajamos</span>
+        <h2 class="section-title">Tu proyecto en <em>4 pasos</em></h2>
+      </div>
+      <div class="process-steps">
+        <div class="step"><div class="step-number">01</div><h3>Descubrimiento</h3><p>Estudiamos tu negocio y objetivos para definir la estrategia perfecta.</p></div>
+        <div class="step-arrow">→</div>
+        <div class="step"><div class="step-number">02</div><h3>Diseño</h3><p>Creamos mockups para que veas tu web antes de construirla.</p></div>
+        <div class="step-arrow">→</div>
+        <div class="step"><div class="step-number">03</div><h3>Desarrollo</h3><p>Programamos con tecnología moderna, responsive y optimizada.</p></div>
+        <div class="step-arrow">→</div>
+        <div class="step"><div class="step-number">04</div><h3>Lanzamiento</h3><p>Publicamos tu web con dominio, SSL y analytics configurados.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTAFOLIO -->
+  <section class="section" id="portafolio">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Nuestro trabajo</span>
+        <h2 class="section-title">Proyectos que <em>hablan por sí solos</em></h2>
+      </div>
+      <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="tienda">Tiendas</button>
+        <button class="filter-btn" data-filter="corporativo">Corporativo</button>
+        <button class="filter-btn" data-filter="landing">Landing</button>
+      </div>
+      <div class="portfolio-grid">
+
+        <div class="portfolio-item" data-category="corporativo">
+          <div class="portfolio-img pi-1">
+            <div class="site-mock sm-tech">
+              <div class="sm-nav"><span class="sm-logo">⬡ TechNova</span><div class="sm-nav-links"><span></span><span></span><span></span></div></div>
+              <div class="sm-hero-text"><div class="sm-line big"></div><div class="sm-line med"></div><div class="sm-btn-mock"></div></div>
+              <div class="sm-cols"><div class="sm-col"></div><div class="sm-col"></div><div class="sm-col"></div></div>
+            </div>
+            <div class="portfolio-overlay"><h4>TechNova Corp</h4><p>Sitio corporativo · React + Next.js</p></div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="tienda">
+          <div class="portfolio-img pi-2">
+            <div class="site-mock sm-shop">
+              <div class="sm-nav"><span class="sm-logo">✿ BrandBloom</span><span style="font-size:11px">🛒</span></div>
+              <div class="sm-product-grid">
+                <div class="sm-product"><div class="sm-prod-img"></div><div class="sm-prod-name"></div><div class="sm-prod-price"></div></div>
+                <div class="sm-product"><div class="sm-prod-img p2"></div><div class="sm-prod-name"></div><div class="sm-prod-price"></div></div>
+                <div class="sm-product"><div class="sm-prod-img p3"></div><div class="sm-prod-name"></div><div class="sm-prod-price"></div></div>
+              </div>
+            </div>
+            <div class="portfolio-overlay"><h4>BrandBloom Store</h4><p>E-commerce · Shopify</p></div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="landing">
+          <div class="portfolio-img pi-3">
+            <div class="site-mock sm-cafe">
+              <div class="sm-cafe-hero"><div class="sm-cafe-title"></div><div class="sm-cafe-sub"></div><div class="sm-cafe-btn"></div></div>
+              <div class="sm-cafe-features"><span>☕</span><span>🌿</span><span>⭐</span></div>
+            </div>
+            <div class="portfolio-overlay"><h4>CafeUrban Launch</h4><p>Landing Page · HTML/CSS/JS</p></div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="corporativo">
+          <div class="portfolio-img pi-4">
+            <div class="site-mock sm-inmo">
+              <div class="sm-nav dark"><span class="sm-logo">🏠 InmoElite</span><div class="sm-search-bar"></div></div>
+              <div class="sm-prop-grid">
+                <div class="sm-prop"><div class="sm-prop-img"></div><div class="sm-prop-info"><div class="sm-line sm"></div><div class="sm-line xs green"></div></div></div>
+                <div class="sm-prop"><div class="sm-prop-img p2"></div><div class="sm-prop-info"><div class="sm-line sm"></div><div class="sm-line xs green"></div></div></div>
+              </div>
+            </div>
+            <div class="portfolio-overlay"><h4>InmoElite</h4><p>Portal inmobiliario · Vue.js</p></div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="tienda">
+          <div class="portfolio-img pi-5">
+            <div class="site-mock sm-med">
+              <div class="sm-nav blue"><span class="sm-logo">➕ MediCare</span></div>
+              <div class="sm-dash">
+                <div class="sm-dash-card"><span style="font-size:10px">👤</span><div class="sm-dash-text"><div class="sm-line sm"></div><div class="sm-line xs"></div></div></div>
+                <div class="sm-dash-card accent"><span style="font-size:10px">📋</span><div class="sm-dash-text"><div class="sm-line sm"></div><div class="sm-line xs"></div></div></div>
+                <div class="sm-dash-card"><span style="font-size:10px">💊</span><div class="sm-dash-text"><div class="sm-line sm"></div><div class="sm-line xs"></div></div></div>
+              </div>
+              <div class="sm-chart-mock"></div>
+            </div>
+            <div class="portfolio-overlay"><h4>MediCare Online</h4><p>Plataforma médica · React</p></div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="landing">
+          <div class="portfolio-img pi-6">
+            <div class="site-mock sm-edu">
+              <div class="sm-nav purple"><span class="sm-logo">🎓 EduPath</span></div>
+              <div class="sm-course-hero"><div class="sm-line big white"></div><div class="sm-line med white"></div></div>
+              <div class="sm-courses">
+                <div class="sm-course"><div class="sm-course-img"></div><div class="sm-line sm"></div><div class="sm-stars">★★★★★</div></div>
+                <div class="sm-course"><div class="sm-course-img c2"></div><div class="sm-line sm"></div><div class="sm-stars">★★★★☆</div></div>
+              </div>
+            </div>
+            <div class="portfolio-overlay"><h4>EduPath Academy</h4><p>Plataforma educativa · Next.js</p></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PRECIOS -->
+  <section class="section section-dark" id="precios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Inversión</span>
+        <h2 class="section-title">Planes para <em>cada negocio</em></h2>
+      </div>
+      <div class="pricing-grid">
+        <div class="pricing-card">
+          <div class="pricing-top"><h3>Starter</h3><div class="price"><span class="currency">$</span>499</div><p>Ideal para pequeños negocios</p></div>
+          <ul class="pricing-features">
+            <li>✓ Diseño personalizado</li><li>✓ Hasta 5 páginas</li><li>✓ Responsive (móvil)</li>
+            <li>✓ Formulario de contacto</li><li>✓ SEO básico</li><li>✓ 1 mes de soporte</li>
+          </ul>
+          <a href="#contacto" class="btn btn-ghost btn-full">Empezar →</a>
+        </div>
+        <div class="pricing-card pricing-featured">
+          <div class="pricing-badge">Más Popular</div>
+          <div class="pricing-top"><h3>Business</h3><div class="price"><span class="currency">$</span>999</div><p>Para empresas que quieren crecer</p></div>
+          <ul class="pricing-features">
+            <li>✓ Todo lo del plan Starter</li><li>✓ Hasta 15 páginas</li><li>✓ Blog integrado</li>
+            <li>✓ Google Analytics</li><li>✓ SEO avanzado</li><li>✓ 3 meses de soporte</li>
+          </ul>
+          <a href="#contacto" class="btn btn-primary btn-full">Empezar →</a>
+        </div>
+        <div class="pricing-card">
+          <div class="pricing-top"><h3>E-Commerce</h3><div class="price"><span class="currency">$</span>1,999</div><p>Para vender online sin límites</p></div>
+          <ul class="pricing-features">
+            <li>✓ Todo lo del plan Business</li><li>✓ Tienda completa</li><li>✓ Pasarela de pagos</li>
+            <li>✓ Panel de administración</li><li>✓ Gestión de inventario</li><li>✓ 6 meses de soporte</li>
+          </ul>
+          <a href="#contacto" class="btn btn-ghost btn-full">Empezar →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIOS -->
+  <section class="section" id="testimonios">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Clientes felices</span>
+        <h2 class="section-title">Lo que dicen <em>de nosotros</em></h2>
+      </div>
+      <div class="testimonials-slider">
+        <div class="testimonial active">
+          <p class="testimonial-text">"PixelForge transformó completamente nuestra presencia online. Las ventas aumentaron un 300% en el primer mes. Un trabajo increíble."</p>
+          <div class="testimonial-author"><div class="author-avatar">MR</div><div><strong>María Rodríguez</strong><span>CEO, BrandBloom</span></div></div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">"Profesionales, creativos y muy atentos. Entregaron la web antes del plazo y superó todas nuestras expectativas. 100% recomendados."</p>
+          <div class="testimonial-author"><div class="author-avatar">CL</div><div><strong>Carlos López</strong><span>Director, TechNova</span></div></div>
+        </div>
+        <div class="testimonial">
+          <p class="testimonial-text">"La landing page que crearon convierte 5 veces mejor que la anterior. El ROI fue inmediato. Sin duda el mejor equipo de desarrollo web."</p>
+          <div class="testimonial-author"><div class="author-avatar">AP</div><div><strong>Ana Pérez</strong><span>Fundadora, EduPath</span></div></div>
+        </div>
+        <div class="testimonial-controls">
+          <button class="t-btn" id="t-prev">←</button>
+          <div class="t-dots" id="t-dots"><span class="t-dot active"></span><span class="t-dot"></span><span class="t-dot"></span></div>
+          <button class="t-btn" id="t-next">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section class="section section-dark" id="contacto">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Hablemos</span>
+        <h2 class="section-title">¿Listo para <em>tu nuevo sitio web?</em></h2>
+        <p class="section-sub">Cuéntanos tu proyecto y te respondemos en menos de 24 horas.</p>
+      </div>
+
+      <div class="contact-wrapper">
+
+        <!-- INFO -->
+        <div class="contact-info-box">
+          <div class="cinfo-item">
+            <div class="cinfo-icon">📧</div>
+            <div>
+              <p class="cinfo-label">Correo electrónico</p>
+              <p class="cinfo-val">wilkingervacio940@gmail.com</p>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <div class="cinfo-icon">📱</div>
+            <div>
+              <p class="cinfo-label">Celular / WhatsApp</p>
+              <p class="cinfo-val">829-287-3379</p>
+            </div>
+          </div>
+          <div class="cinfo-item">
+            <div class="cinfo-icon">📞</div>
+            <div>
+              <p class="cinfo-label">Teléfono fijo</p>
+              <p class="cinfo-val">809-550-5830</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FORMULARIO -->
+        <form class="contact-form" id="contact-form" onsubmit="enviarForm(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="nombre">Nombre *</label>
+              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Tu Email *</label>
+              <input type="email" id="email" name="email" placeholder="tucorreo@email.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="servicio">Servicio de interés</label>
+            <select id="servicio" name="servicio">
+              <option value="">Selecciona un servicio</option>
+              <option>Diseño Web</option>
+              <option>Desarrollo Web</option>
+              <option>Tienda Online</option>
+              <option>Landing Page</option>
+              <option>SEO</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Cuéntanos tu proyecto *</label>
+            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Describe tu proyecto..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submit-btn">Enviar Mensaje ✦</button>
+          <div class="form-success" id="form-success">✅ ¡Mensaje enviado! Te contactaremos pronto.</div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#inicio" class="nav-logo"><span class="logo-icon">⬡</span> PixelForge</a>
+          <p>Transformamos ideas en experiencias digitales que conectan marcas con personas.</p>
+          <div class="social-links">
+            <a href="#">IG</a><a href="#">LI</a><a href="#">TW</a><a href="#">BE</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <h4>Servicios</h4>
+          <a href="#servicios">Diseño Web</a><a href="#servicios">Desarrollo Web</a>
+          <a href="#servicios">E-Commerce</a><a href="#servicios">SEO</a>
+        </div>
+        <div class="footer-links">
+          <h4>Empresa</h4>
+          <a href="#proceso">Cómo trabajamos</a><a href="#portafolio">Portafolio</a>
+          <a href="#precios">Precios</a><a href="#contacto">Contacto</a>
+        </div>
+        <div class="footer-links">
+          <h4>Contacto</h4>
+          <a href="#">wilkingervacio940@gmail.com</a>
+          <a href="#">829-287-3379</a>
+          <a href="#">809-550-5830</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2025 PixelForge Studio. Todos los derechos reservados.</p>
+        <p>Hecho con ♥ para hacer la web más hermosa.</p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" id="scroll-top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
