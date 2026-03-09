@@ -291,3 +291,16 @@ a{text-decoration:none;color:inherit} ul{list-style:none} button{cursor:pointer;
   .hero-btns .btn{width:100%;justify-content:center}
   .hero-btns{flex-direction:column}
 }
+
+
+/* Tarjetas clicables */
+.clickable-card { cursor:pointer; }
+.clickable-card:hover .portfolio-overlay { opacity:1; }
+.portfolio-overlay p { font-size:0.82rem; color:var(--accent); }
+.portfolio-overlay::after {
+  content: '↗ Abrir sitio';
+  display:inline-block; margin-top:10px;
+  background:var(--accent); color:#040608;
+  font-family:var(--fhead); font-weight:700; font-size:0.78rem;
+  padding:5px 14px; border-radius:50px;
+}
